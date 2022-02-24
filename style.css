@@ -66,6 +66,26 @@ ul {
     flex-wrap: wrap;
 }
 
+/* Pour éviter que ça déconne */
+
+.container-search {
+    width: 70%;
+    max-width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container-search ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* Ça ne déconne plus */
+
 .liste-poke li {
     width: 250px;
     height: auto;
